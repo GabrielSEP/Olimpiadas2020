@@ -1,0 +1,119 @@
+.header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: rgb(0, 238, 255);
+	padding: 15px 0;
+	z-index: 10;
+}
+
+.header_menu {
+	text-align: right;
+}
+
+.header_menu ul li {
+	display: inline-block;
+	margin-left: 25px;
+	margin-top: 20px;
+}
+
+.header_menu ul li a {
+	color:rgb(49, 51, 58);
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 10px 0;
+}
+
+.header_menu ul li a:hover {
+	color: rgb(0, 26, 255);
+}
+
+/* Introdução */
+
+.introducao {
+	width: 100%;
+	height: 380px;
+	background-size: cover;
+	margin-top: 92px;
+	text-align: center;
+	padding-top: 80px;
+}
+
+.introducao h1 {
+	font-size: 48px;
+	color:black;
+	font-weight: bold;
+}
+.introducao a h1:hover {
+	color: red;
+}
+
+.introducao img{
+	margin: 10px auto;
+	margin-top: 2px auto;
+	width: 600px;
+	height: 400px;
+}
+
+.cancelada{
+	width: 100%;
+	height: 380px;
+	background-size: cover;
+	margin-top: 60px;
+	text-align: center;
+	padding-top: 80px;
+}
+
+.cancelada h1{
+	font-size: 48px;
+	color:black;
+	font-weight: bold;
+}
+
+.cancelada h2{
+	font-size: 20px;
+	color:rgb(109, 108, 108);
+	font-weight: bold;
+}
+
+.cancelada p{
+	margin-bottom: 40px;
+}
+
+.modalidades{
+	width: 100%;
+	height: 380px;
+	background-size: cover;
+	margin-top: 60px;
+	text-align: center;
+	padding-top: 80px;
+}
+
+.modalidades h1{
+	font-size: 48px;
+	color:black;
+	font-weight: bold;
+}
+
+.modalidades h2{
+	font-size: 20px;
+	color:rgb(109, 108, 108);
+	font-weight: bold;
+}
+
+.modalidades h3{
+	font-size: 15px;
+	color:black;
+	font-weight: bold;
+	text-align: left;
+}
+
+.modalidades p{
+	font-size: 15px;
+	color:black;
+	text-align: left;
+
+}
